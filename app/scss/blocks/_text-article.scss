@@ -1,0 +1,28 @@
+.text-article {
+  padding: 15px 0 70px;
+  &__title {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 148%;
+      margin-bottom: 20px;
+      padding-top: 15px;
+      border-top: 1px solid $blue;
+  }
+  &__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 148%;
+    margin-bottom: 40px;
+    &--hidden{
+        display: none;
+    }
+  }
+  &__btn{
+    &--active{
+        &::before{
+            transform: rotate(180deg);
+            top: 8px;
+        }
+    }
+  }
+}

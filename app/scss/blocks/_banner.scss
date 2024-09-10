@@ -1,0 +1,72 @@
+.banner{
+    height: 700px;
+    width: 100%;
+    &__inner{
+        width: 100%;
+        height: 100%;
+    }
+    &__img{
+        height: 700px;
+        width: 100%;
+        object-fit: cover;
+
+    }
+  &--medium{
+    height: 540px;
+    .banner__inner{
+        height: 100%;
+        width: 100%;
+    }
+    .banner__img{
+        height: 540px;
+        width: 100%;
+        object-fit: cover;
+    }
+  }
+  &--mini{
+    height: 350px;
+    .banner__inner{
+        height: 100%;
+        width: 100%;
+    }
+    .banner__img{
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+    }
+  }
+  &--animate{
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-image: url("../images/icons/banner-arrow.svg");
+        width: 32px;
+        height: 20px;
+        animation: arrow-move 2s infinite ease-in-out;
+    }
+  }
+}
+
+
+@keyframes arrow-move {
+    0% {
+      bottom: -30px;
+    }
+    50%{
+        bottom: -45px;
+    }
+    100% {
+      bottom: -30px;
+    }
+  }
+
+
+#stankomplekt{
+    img{
+      object-fit: contain;
+    }
+}

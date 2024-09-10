@@ -1,0 +1,63 @@
+.filter {
+  padding: 70px 0;
+  background-color: #f6f4f4;
+  &__form {
+    display: flex;
+    justify-content: space-around;
+  }
+  .jq-selectbox__select {
+    background: transparent;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 2px solid #000;
+    z-index: 11;
+    padding: 8px 120px 0 5px;
+    &-text {
+      text-shadow: none;
+    }
+    &:hover {
+      background: transparent;
+      box-shadow: none;
+      border-radius: 0;
+      border: none;
+      border-bottom: 2px solid #000;
+    }
+    &:active {
+      background: transparent;
+      box-shadow: none;
+      border-radius: 0;
+      border: none;
+      border-bottom: 2px solid #000;
+    }
+  }
+  .jq-selectbox__trigger {
+    border-left: none;
+    &-arrow {
+      border: none;
+      width: 17px;
+      height: 17px;
+      background: url("../images/icons/select-arrow-black.png");
+      top: 7px;
+      right: 5px;
+    }
+  }
+  .jq-selectbox__dropdown {
+    background: #fff;
+    color: $dark_blue;
+    li {
+      background: #fff;
+      &:hover{
+        background-color: $dark_blue;
+      }
+      &.selected{
+        background-color: $dark_blue;
+      }
+    }
+  }
+}

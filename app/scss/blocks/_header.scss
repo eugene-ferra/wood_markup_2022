@@ -1,0 +1,249 @@
+.header {
+  color: #fff;
+  &__top {
+    background-color: $dark_blue;
+    .container {
+      display: flex;
+      align-items: flex-end;
+      padding: 22px 0 18px;
+    }
+  }
+  &__social {
+    margin-left: 75px;
+    margin-right: auto;
+    font-weight: 400;
+  }
+  &__mail {
+    margin-left: 25px;
+  }
+  &__btn {
+    margin-left: 23px;
+  }
+  &__input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    width: 380px;
+    text-transform: uppercase;
+    padding: 17px 10px 2px 5px;
+    &::placeholder {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 12px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+  &__bottom {
+    background-color: $blue;
+    .container {
+      padding: 10px 0 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+  }
+  .jq-selectbox__select {
+    background: $dark_blue;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    z-index: 11;
+    padding: 0 30px 0 30px;
+    font-weight: 500;
+    position: relative;
+    &::before{
+        content: '';
+        width: 14px;
+        height: 7px;
+        position: absolute;
+        top: 12px;
+        left: 5px;
+        background-image: url("../images/icons/ua.jpg")
+      }
+    &-text {
+      text-shadow: none;
+    }
+    &:hover {
+      background: $dark_blue;
+      box-shadow: none;
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid #fff;
+    }
+    &:active {
+      background: $dark_blue;
+      box-shadow: none;
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid #fff;
+    }
+  }
+  .jq-selectbox__trigger {
+    border-left: none;
+    &-arrow {
+      border: none;
+      width: 17px;
+      height: 17px;
+      background: url("../images/icons/select-arrow.svg");
+      top: 7px;
+      right: 5px;
+    }
+  }
+  .jq-selectbox__dropdown {
+    background: #fff;
+    color: $dark_blue;
+    li {
+      background: #fff;
+      padding-left: 25px;
+      position: relative;
+      color: #000;
+      &:hover{
+        background-color: $dark-blue;
+        color: #fff;
+      }
+      &::before{
+        content: '';
+        width: 14px;
+        height: 7px;
+        position: absolute;
+        top: 12px;
+        left: 5px;
+        background-image: url("../images/icons/ua.jpg")
+      }
+    }
+  }
+  
+}
+
+
+.navbar {
+  display: inline-block;
+  padding-right: 74px;
+  padding-left: 10px;
+  &__item {
+    display: inline-block;
+    margin-right: 36px;
+    font-weight: 400;
+    position: relative;
+    &::before {
+      content: "";
+      height: 1px;
+      position: absolute;
+      bottom: -1px;
+      width: 0;
+      left: auto;
+      right: 0;
+      background-color: #fff;
+      transition: 0.4s;
+    }
+    &:hover {
+      &::before {
+        width: 100%;
+        right: auto;
+        left: 0;
+      }
+    }
+  }
+}
+
+.logo {
+  img {
+    padding-left: 5px;
+    max-width: 200px;
+    height: 50px;
+    object-fit: contain;
+  }
+}
+
+//mobile
+
+.header-mobile {
+  background-color: $dark_blue;
+  display: none;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.burger {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.4s all;
+  display: none;
+  z-index: 50;
+  img {
+    transition: 0.4s all;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.close{
+  z-index: 51;
+}
+
+.burger-menu {
+  z-index: 101;
+  .header__btn{
+    margin: 0 0 20px;
+  }
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: -100%;
+  z-index: 0;
+  background-color: #fff;
+  height: 100%;
+  width: 50%;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.4s;
+  padding: 50px 0 40px;
+  &--active {
+    left: 0px;
+    opacity: 1;
+    z-index: 60;
+  }
+  .navbar{
+    text-align: center;
+    &__list{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+    &__item{
+      margin: 10px 0;
+    }
+  }
+  .header__social{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header__mail{
+    margin: 10px 0 0;
+  }
+  .header__form{
+    margin-bottom: 40px;
+    input{
+      color:#000;
+      border-color: #000;
+      &::placeholder{
+        color: #000;
+      }
+    }
+  }
+}

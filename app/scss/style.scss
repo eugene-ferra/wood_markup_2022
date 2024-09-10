@@ -1,0 +1,83 @@
+@import '../../node_modules/scss-reset/src/scss/_reset.scss';
+@import '../../node_modules/jquery-form-styler/dist/jquery.formstyler';
+@import '../../node_modules/jquery-form-styler/dist/jquery.formstyler.theme';
+@import '../../node_modules/slick-carousel/slick/slick.scss';
+
+
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex: 0 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+@import 'vars';
+@import 'blocks/buttons';
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/banner';
+@import 'blocks/about';
+@import 'blocks/items-gallery';
+@import 'blocks/benefits';
+@import 'blocks/projects';
+@import 'blocks/partners';
+@import 'blocks/consulting';
+@import 'blocks/breadcrumbs';
+@import 'blocks/about-article';
+@import 'blocks/post';
+@import 'blocks/hot-line';
+@import 'blocks/filter';
+@import 'blocks/video-catalog';
+@import 'blocks/pagination';
+@import 'blocks/info-block';
+@import 'blocks/contact-us';
+@import 'blocks/callback';
+@import 'blocks/write-us';
+@import 'blocks/catalog';
+@import 'blocks/text-article';
+@import 'blocks/cards';
+@import 'blocks/text-banner';
+@import 'blocks/model-descr';
+@import 'blocks/tabs';
+@import 'blocks/warning';
+@import 'blocks/pop-up';
+
+
+
+
+@import 'blocks/media';

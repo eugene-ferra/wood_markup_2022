@@ -1,0 +1,28 @@
+.partners {
+  padding: 50px 0 150px;
+  &__title {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 15px;
+  }
+  &__descr {
+    font-size: 24px;
+    line-height: 28px;
+    max-width: 50%;
+    margin-bottom: 70px;
+  }
+  &__inner{
+    display: grid;
+    grid-template: repeat(3, auto) / repeat(4, minmax(90px, 200px)) ;
+    grid-auto-rows: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__img{
+    margin-bottom: 110px;
+    max-width: 100%;
+    object-fit: contain;
+    justify-self: center;
+  }
+}

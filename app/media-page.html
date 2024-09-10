@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/jquery.formstyler.css" rel="stylesheet" />
+    <link href="css/jquery.formstyler.theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <select class="header__select" name="select-language">
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+            </select>
+            <div class="header__social">
+              <a href="tel:380674456035" class="header__phone"
+                >+38 (067) 445-60-35</a
+              >
+              <a href="mailto:info@kdtmac.com.ua" class="header__mail"
+                >info@kdtmac.com.ua</a
+              >
+            </div>
+            <form action="#" class="header__form">
+              <input type="text" class="header__input" placeholder="ПОИСК" />
+            </form>
+            <button class="button header__btn" data-popup="pop-up">ЗАКАЗАТЬ ЗВОНОК</button>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="container">
+            <a href="#" class="logo">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+            <nav class="navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Каталог оборудования</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">О компании</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Сервис</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Проэкты</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Медиа</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div class="header-mobile">
+        <div class="container">
+          <div class="header-mobile__inner">
+            <select class="header__select" name="select-language">
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+            </select>
+
+            <a href="#" class="logo">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+
+            <div class="burger">
+              <img src="images/icons/burger.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="burger-menu">
+        <button class="button button--dark header__btn" data-popup="pop-up">ЗАКАЗАТЬ ЗВОНОК</button>
+        <form action="#" class="header__form">
+          <input type="text" class="header__input" placeholder="ПОИСК" />
+        </form>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Каталог оборудования</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">О компании</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Сервис</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Проэкты</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Медиа</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__social">
+          <a href="tel:380674456035" class="header__phone"
+            >+38 (067) 445-60-35</a
+          >
+          <a href="mailto:info@kdtmac.com.ua" class="header__mail"
+            >info@kdtmac.com.ua</a
+          >
+        </div>
+      </div>
+
+      <main class="main">
+        <div class="banner banner--medium slick-banner">
+          <img
+            src="images/content/media-banner.jpg"
+            alt="banner"
+            class="banner__img"
+          />
+          <img
+            src="images/content/media-banner.jpg"
+            alt="banner"
+            class="banner__img"
+          />
+          <img
+            src="images/content/media-banner.jpg"
+            alt="banner"
+            class="banner__img"
+          />
+        </div>
+
+        <section class="benefits">
+          <div class="container">
+            <h2 class="benefits__title">МЕДИА</h2>
+            <div class="benefits__inner">
+              <div class="benefits__item">
+                <img
+                  src="images/icons/media-1.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <h4 class="benefits__subtitle">Видео обзоры</h4>
+                <p class="benefits__descr">
+                  Узнавайте о новинках из наших видео обзоров.
+                </p>
+              </div>
+              <div class="benefits__item">
+                <img
+                  src="images/icons/media-2.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <h4 class="benefits__subtitle">Онлайн база данных</h4>
+                <p class="benefits__descr">
+                  База данных поможет вам всега найти нужную информаци о
+                  оборудовании.
+                </p>
+              </div>
+              <div class="benefits__item">
+                <img
+                  src="images/icons/media-3.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <h4 class="benefits__subtitle">Онлайн обучение</h4>
+                <p class="benefits__descr">
+                  Обучение и поддержка предприятий по всему миру.
+                </p>
+              </div>
+              <div class="benefits__item">
+                <img
+                  src="images/icons/media-4.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <h4 class="benefits__subtitle">Презентации</h4>
+                <p class="benefits__descr">
+                  Узнать о новых технологиях и возможностях нашего оборудования.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="filter">
+          <div class="container">
+            <form action="#" class="filter__form">
+              <select name="type" id="type" class="filter__select">
+                <option class="filter__option" value="#">ВСЕ ТИПЫ СТАНКОВ</option>
+                <option class="filter__option" value="#">Станок 1</option>
+                <option class="filter__option" value="#">Станок 2</option>
+                <option class="filter__option" value="#">Станок 3</option>
+                <option class="filter__option" value="#">Станок 4</option>
+                <option class="filter__option" value="#">Станок 5</option>
+              </select>
+              <select name="model" id="type" class="filter__select">
+                <option class="filter__option" value="#">ВСЕ МОДЕЛИ</option>
+                <option class="filter__option" value="#">Модель 1</option>
+                <option class="filter__option" value="#">Модель 2</option>
+                <option class="filter__option" value="#">Модель 3</option>
+              </select>
+              <button class="button button--red">СБРОСИТЬ</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="breadcrumbs">
+          <div class="container">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">
+                  <img src="images/icons/prev-arrow.png" alt="prev" />
+                </a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">главная</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">медиа</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="video-catalog">
+          <div class="container">
+            <div class="video-catalog__inner">
+              <!-- каждую карточку можно будет обернуть в ссылку при надобности -->
+              <div class="video-item"> 
+                <div class="video-item__contentbox" data-video>
+                    <!-- Место для превью видео или самого видео, вставленого через iframe -->
+                    <div class="test-img" style="background-color: #184471; height: 100%; width: 100%;"></div>
+                </div>
+                <div class="video-item__about">
+                  <div class="video-item__category">техническое обслуживание</div>
+                  <p class="video-item__info">Форматно-раскроечный центр с ЧПУ KDT KS-842HL с задней загрузкой и двойным независимым толкателем</p>
+                  <div class="video-item__divider"></div>
+                  <div class="video-item__date">01.11.2021</div>
+                </div>
+              </div>
+              <div class="video-item">
+                <div class="video-item__contentbox" data-video>
+                    <!-- Место для превью видео или самого видео, вставленого через iframe -->
+                    <div class="test-img" style="background-color: #184471; height: 100%; width: 100%;"></div>
+                </div>
+                <div class="video-item__about">
+                  <div class="video-item__category">техническое обслуживание</div>
+                  <p class="video-item__info">Форматно-раскроечный центр с ЧПУ KDT KS-842HL с задней загрузкой и двойным независимым толкателем</p>
+                  <div class="video-item__divider"></div>
+                  <div class="video-item__date">01.11.2021</div>
+                </div>
+              </div>
+              <div class="video-item">
+                <div class="video-item__contentbox" data-video>
+                    <!-- Место для превью видео или самого видео, вставленого через iframe -->
+                    <div class="test-img" style="background-color: #184471; height: 100%; width: 100%;"></div>
+                </div>
+                <div class="video-item__about">
+                  <div class="video-item__category">техническое обслуживание</div>
+                  <p class="video-item__info">Форматно-раскроечный центр с ЧПУ KDT KS-842HL с задней загрузкой и двойным независимым толкателем</p>
+                  <div class="video-item__divider"></div>
+                  <div class="video-item__date">01.11.2021</div>
+                </div>
+              </div>
+              <div class="video-item">
+                <div class="video-item__contentbox" data-video>
+                    <!-- Место для превью видео или самого видео, вставленого через iframe -->
+                    <div class="test-img" style="background-color: #184471; height: 100%; width: 100%;"></div>
+                </div>
+                <div class="video-item__about">
+                  <div class="video-item__category">техническое обслуживание</div>
+                  <p class="video-item__info">Форматно-раскроечный центр с ЧПУ KDT KS-842HL с задней загрузкой и двойным независимым толкателем</p>
+                  <div class="video-item__divider"></div>
+                  <div class="video-item__date">01.11.2021</div>
+                </div>
+              </div>
+              <div class="video-item" >
+                <div class="video-item__contentbox" data-video>
+                    <!-- Место для превью видео или самого видео, вставленого через iframe -->
+                    <div class="test-img" style="background-color: #184471; height: 100%; width: 100%;"></div>
+                </div>
+                <div class="video-item__about">
+                  <div class="video-item__category">техническое обслуживание</div>
+                  <p class="video-item__info">Форматно-раскроечный центр с ЧПУ KDT KS-842HL с задней загрузкой и двойным независимым толкателем</p>
+                  <div class="video-item__divider"></div>
+                  <div class="video-item__date">01.11.2021</div>
+                </div>
+              </div>
+              <div class="video-item">
+                <div class="video-item__contentbox" data-video>
+                    <!-- Место для превью видео или самого видео, вставленого через iframe -->
+                    <div class="test-img" style="background-color: #184471; height: 100%; width: 100%;"></div>
+                </div>
+                <div class="video-item__about">
+                  <div class="video-item__category">техническое обслуживание</div>
+                  <p class="video-item__info">Форматно-раскроечный центр с ЧПУ KDT KS-842HL с задней загрузкой и двойным независимым толкателем</p>
+                  <div class="video-item__divider"></div>
+                  <div class="video-item__date">01.11.2021</div>
+                </div>
+              </div>
+              <div class="video-item">
+                <div class="video-item__contentbox" data-video>
+                    <!-- Место для превью видео или самого видео, вставленого через iframe -->
+                    <div class="test-img" style="background-color: #184471; height: 100%; width: 100%;"></div>
+                </div>
+                <div class="video-item__about">
+                  <div class="video-item__category">техническое обслуживание</div>
+                  <p class="video-item__info">Форматно-раскроечный центр с ЧПУ KDT KS-842HL с задней загрузкой и двойным независимым толкателем</p>
+                  <div class="video-item__divider"></div>
+                  <div class="video-item__date">01.11.2021</div>
+                </div>
+              </div>
+              <div class="video-item">
+                <div class="video-item__contentbox" data-video>
+                    <!-- Место для превью видео или самого видео, вставленого через iframe -->
+                    <div class="test-img" style="background-color: #184471; height: 100%; width: 100%;"></div>
+                </div>
+                <div class="video-item__about">
+                  <div class="video-item__category">техническое обслуживание</div>
+                  <p class="video-item__info">Форматно-раскроечный центр с ЧПУ KDT KS-842HL с задней загрузкой и двойным независимым толкателем</p>
+                  <div class="video-item__divider"></div>
+                  <div class="video-item__date">01.11.2021</div>
+                </div>
+              </div>
+              <div class="video-item">
+                <div class="video-item__contentbox" data-video>
+                    <!-- Место для превью видео или самого видео, вставленого через iframe -->
+                    <div class="test-img" style="background-color: #184471; height: 100%; width: 100%;"></div>
+                </div>
+                <div class="video-item__about">
+                  <div class="video-item__category">техническое обслуживание</div>
+                  <p class="video-item__info">Форматно-раскроечный центр с ЧПУ KDT KS-842HL с задней загрузкой и двойным независимым толкателем</p>
+                  <div class="video-item__divider"></div>
+                  <div class="video-item__date">01.11.2021</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="pagination">
+          <div class="container">
+            <ul class="pagination__list">
+              <li class="pagination__item pagination__item--active">
+                <a href="#" class="pagination__link">1</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">2</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">3</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">4</a>
+              </li>
+              <li class="pagination__item">
+                <a href="#" class="pagination__link">5</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__top">
+            <div class="footer__info">
+              <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo" />
+              </a>
+              <span class="footer__text"
+                >KDT - станки и оборудование для мебельных и
+                деревообрабатывающих предприятий</span
+              >
+            </div>
+            <div class="footer__menu">
+              <nav class="footer__navbar">
+                <h4 class="footer__category">Каталог оборудования</h4>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Оборудование для раскроя</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Кромкооблицовочные станки</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Сверлильно-присадочные станки</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Обрабатывающие центры с ЧПУ</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Автоматические линии</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Автоматизация</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Запчасти</a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="footer__navbar">
+                <h4 class="footer__category">Информация</h4>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">О нас</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Сервис</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="footer__navbar">
+                <h4 class="footer__category">Обратная связь</h4>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">+38 (067) 445-60-35</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">info@kdtmac.com.ua</a>
+                  </li>
+                  <li class="footer__item footer__item--notlink">
+                    Украина 49000
+                  </li>
+                  <li class="footer__item footer__item--notlink">г. Днепр</li>
+                  <li class="footer__item footer__item--notlink">
+                    <address class="footer__link">
+                      ул. Костя Гордиенко 2
+                    </address>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__confidence">
+              © Guangzhou KDT Machinery Co. Stankomplect, Inc. 2022.
+            </div>
+            <div class="footer__social">
+              <span>Следить за нами:</span>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <div class="overlay"></div>
+
+    <div class="pop-up">
+      <div class="pop-up__inner">
+        <div class="pop-up__cross">
+          <img src="images/icons/cross.svg" alt="">
+        </div>
+        <form class="consulting__form">
+          <h4 class="consulting__form-title">ЗАКАЗАТЬ ЗВОНОК</h4>
+          <input name="name" type="text" class="consulting__input" placeholder="Имя">
+          <input name="city" type="text" class="consulting__input" placeholder="Город">
+          <input name="phone" type="tel" class="consulting__input" placeholder="Телефон">
+          <button class="button button--white">ЗАКАЗАТЬ</button>
+      </form>
+      </div>
+    </div>
+
+    <div class="video">
+      <div class="video__inner">
+        <!-- <iframe class="video__content" width="956" height="538" src="https://www.youtube.com/embed/kbw6Uo5MDFE?enablejsapi=1" title="Автоматическая линия KDT NESTING LINE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <video src="video/test-video.mp4"  controls class="video__content"></video>
+      </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

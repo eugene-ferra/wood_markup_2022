@@ -1,0 +1,28 @@
+.breadcrumbs {
+  padding: 20px 0;
+  &__list{
+    display: flex;
+  }
+  &__item {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 13px;
+    min-width: max-content;
+    &::after {
+      content: "/";
+      margin-left: 10px;
+    }
+    &:first-child {
+      &::after {
+        display: none;
+      }
+    }
+    img {
+      width: 25px;
+    }
+  }
+  &__item + .breadcrumbs__item {
+    margin-left: 10px;
+  }
+}

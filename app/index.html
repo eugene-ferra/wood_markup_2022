@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/jquery.formstyler.css" rel="stylesheet" />
+    <link href="css/jquery.formstyler.theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <select class="header__select" name="select-language">
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+            </select>
+            <div class="header__social">
+              <a href="tel:380674456035" class="header__phone"
+                >+38 (067) 445-60-35</a
+              >
+              <a href="mailto:info@kdtmac.com.ua" class="header__mail"
+                >info@kdtmac.com.ua</a
+              >
+            </div>
+            <form action="#" class="header__form">
+              <input type="text" class="header__input" placeholder="ПОИСК" />
+            </form>
+            <button class="button header__btn" data-popup="pop-up">ЗАКАЗАТЬ ЗВОНОК</button>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="container">
+            <a href="#" class="logo">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+            <nav class="navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Каталог оборудования</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">О компании</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Сервис</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Проэкты</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Медиа</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div class="header-mobile">
+        <div class="container">
+            <div class="header-mobile__inner">
+                <select class="header__select" name="select-language">
+                  <option value="ukr" class="header__option">ЯЗЫК</option>
+                  <option value="ukr" class="header__option">ЯЗЫК</option>
+                  <option value="ukr" class="header__option">ЯЗЫК</option>
+                </select>
+      
+                <a href="#" class="logo">
+                  <img src="images/logo.png" alt="logo" />
+                </a>
+      
+                <div class="burger">
+                  <img src="images/icons/burger.svg" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="burger-menu">
+        <button class="button button--dark header__btn" data-popup="pop-up">ЗАКАЗАТЬ ЗВОНОК</button>
+        <form action="#" class="header__form">
+            <input type="text" class="header__input" placeholder="ПОИСК" />
+          </form>
+        <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="" class="navbar__link">Каталог оборудования</a>
+              </li>
+              <li class="navbar__item">
+                <a href="" class="navbar__link">О компании</a>
+              </li>
+              <li class="navbar__item">
+                <a href="" class="navbar__link">Сервис</a>
+              </li>
+              <li class="navbar__item">
+                <a href="" class="navbar__link">Проэкты</a>
+              </li>
+              <li class="navbar__item">
+                <a href="" class="navbar__link">Медиа</a>
+              </li>
+              <li class="navbar__item">
+                <a href="" class="navbar__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__social">
+            <a href="tel:380674456035" class="header__phone"
+              >+38 (067) 445-60-35</a
+            >
+            <a href="mailto:info@kdtmac.com.ua" class="header__mail"
+              >info@kdtmac.com.ua</a
+            >
+          </div>
+      </div>
+
+      <main class="main">
+        <div class="banner banner--animate slick-banner">
+            <img src="images/content/banner.jpg" alt="banner" class="banner__img">
+            <img src="images/content/banner.jpg" alt="banner" class="banner__img">
+            <img src="images/content/banner.jpg" alt="banner" class="banner__img">
+        </div>
+
+        <div class="about">
+          <div class="container">
+            <div class="about__inner">
+              <img
+                class="about__img"
+                src="images/about-logo.png"
+                alt="about-logo"
+              />
+              <p class="about__text">
+                KDT занимается автоматизацией высококачественного мебельного
+                оборудования, исследованиями и разработками и производством
+                интеллекта , а также оптимальным дизайном и интеграцией
+                программного обеспечения. Независимые исследования и разработки
+                в области технологий и система контроля качества являются
+                основной конкурентоспособностью компании.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="items-gallery">
+          <div class="container">
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">
+                    Сверлильно-присадочный центр с ЧПУ
+                  </h2>
+                  <p class="items-gallery__info">
+                    Как пионер шестигранного сверлильного центра с ЧПУ. Мы
+                    всегда ориентируемся на исследования и разработки и
+                    продвигаем продукты, чтобы постоянно двигаться в направлении
+                    высокого качества и высокой эффективности.
+                  </p>
+                  <a href="#" class="button button--dark items-gallery__btn"
+                    >ПОДРОБНЕЙ</a
+                  >
+                </div>
+                <img
+                  src="images/content/gallery-1.png"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item items-gallery__item--inverse">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">
+                    Форматно-раскроечные центры
+                  </h2>
+                  <p class="items-gallery__info">
+                    Резка панелей является источником производства мебели.
+                    Предоставление клиентам высокопроизводительных, быстрых и
+                    простых в эксплуатации панельных пил является нашим
+                    источником резки. Внедрить передовые итальянские технологии
+                    производства
+                  </p>
+                  <a href="#" class="button button--dark items-gallery__btn"
+                    >ПОДРОБНЕЙ</a
+                  >
+                </div>
+                <img
+                  src="images/content/gallery-2.png"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">
+                    Многотраверсные сверлильно-присадочные станки
+                  </h2>
+                  <p class="items-gallery__info">
+                    Как пионер шестигранного сверлильного центра с ЧПУ. Мы
+                    всегда ориентируемся на исследования и разработки и
+                    продвигаем продукты, чтобы пстоянно двигаться в направлении
+                    высокого качества и высокой эффективности.
+                  </p>
+                  <a href="#" class="button button--dark items-gallery__btn"
+                    >ПОДРОБНЕЙ</a
+                  >
+                </div>
+                <img
+                  src="images/content/gallery-3.png"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item items-gallery__item--inverse">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">
+                    Кромкооблицовочные станки
+                  </h2>
+                  <p class="items-gallery__info">
+                    Являясь лидером в области кромкооблицовки, мы уделяем
+                    внимание каждой детали, посвящаем себя нновациям,
+                    исследованиям и разработкам, объединяем актуальные
+                    потребности клиентов, внедряем передовые корейские техно
+                  </p>
+                  <a href="#" class="button button--dark items-gallery__btn"
+                    >ПОДРОБНЕЙ</a
+                  >
+                </div>
+                <img
+                  src="images/content/gallery-4.png"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">
+                    Обрабатывающие центры с ЧПУ
+                  </h2>
+                  <p class="items-gallery__info">
+                    Интегрированный обрабатывающий центр решает несколько
+                    процессов, таких как сверление, фрезерование и прорезка
+                    пазов в панельной мебели, а также различных продуктов, таких
+                    как шкафы, дверные панели и сиденья.
+                  </p>
+                  <a href="#" class="button button--dark items-gallery__btn"
+                    >ПОДРОБНЕЙ</a
+                  >
+                </div>
+                <img
+                  src="images/content/gallery-5.png"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item items-gallery__item--inverse">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">
+                    Форматно-раскроечные станки
+                  </h2>
+                  <p class="items-gallery__info">
+                    Являясь лидером в области кромкооблицовки, мы уделяем
+                    внимание каждой детали, посвящаем себя нновациям,
+                    исследованиям и разработкам, объединяем актуальные
+                    потребности клиентов, внедряем передовые корейские техно
+                  </p>
+                  <a href="#" class="button button--dark items-gallery__btn"
+                    >ПОДРОБНЕЙ</a
+                  >
+                </div>
+                <img
+                  src="images/content/gallery-6.png"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">
+                    Сверлильно-пазовальные станки для торцов
+                  </h2>
+                  <p class="items-gallery__info">
+                    Интегрированный обрабатывающий центр решает несколько
+                    процессов, таких как сверление, фрезерование и прорезка
+                    пазов в панельной мебели, а также различных продуктов, таких
+                    как шкафы, дверные панели и сиденья.
+                  </p>
+                  <a href="#" class="button button--dark items-gallery__btn"
+                    >ПОДРОБНЕЙ</a
+                  >
+                </div>
+                <img
+                  src="images/content/gallery-7.png"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item items-gallery__item--inverse">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">Автоматическая линия</h2>
+                  <p class="items-gallery__info">
+                    Являясь лидером в области кромкооблицовки, мы уделяем
+                    внимание каждой детали, посвящаем себя нновациям,
+                    исследованиям и разработкам, объединяем актуальные
+                    потребности клиентов, внедряем передовые корейские техно
+                  </p>
+                  <a href="#" class="button button--dark items-gallery__btn"
+                    >ПОДРОБНЕЙ</a
+                  >
+                </div>
+                <img
+                  src="images/content/gallery-8.png"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">Автоматизация</h2>
+                  <p class="items-gallery__info">
+                    Обеспечивает комплексное решение для интеллектуального
+                    производства, стремиться к информатизации рабочего участка
+                    для достижения непрерывного, эффективного и гибкого
+                    производства.
+                  </p>
+                  <a href="#" class="button button--dark items-gallery__btn"
+                    >ПОДРОБНЕЙ</a
+                  >
+                </div>
+                <img
+                  src="images/content/gallery-9.png"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="benefits">
+          <div class="container">
+            <h2 class="benefits__title">ПРЕИМУЩЕСТВА</h2>
+            <div class="benefits__inner">
+              <div class="benefits__item">
+                <img
+                  src="images/icons/benefit-1.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <p class="benefits__descr">
+                  Надежность в эксплуатации и высокая производительность
+                </p>
+              </div>
+              <div class="benefits__item">
+                <img
+                  src="images/icons/benefit-2.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <p class="benefits__descr">
+                  Применение иновационных технологий в разработках
+                </p>
+              </div>
+              <div class="benefits__item">
+                <img
+                  src="images/icons/benefit-3.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <p class="benefits__descr">
+                  Оптимальное программное обеспечение
+                </p>
+              </div>
+              <div class="benefits__item">
+                <img
+                  src="images/icons/benefit-4.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <p class="benefits__descr">
+                  Сервисное обслужевание со складом необходимых расходников
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects">
+          <div class="container">
+            <h2 class="projects__title">ПРОЭКТЫ</h2>
+            <p class="projects__descr">
+              Новости дистрибьютора на територии Украины компании Станкомплект
+            </p>
+            <div class="projects-slider">
+              <div class="project-card">
+                <img
+                  src="images/content/project-1.jpg"
+                  alt="card-img"
+                  class="project-card__img"
+                />
+                <div class="project-card__info">
+                  <h4 class="project-card__title">ABRIS</h4>
+                  <div class="project-card__text">
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                    odit aut fugit, sed quia.
+                  </div>
+                </div>
+              </div>
+              <div class="project-card">
+                <img
+                  src="images/content/project-2.jpg"
+                  alt="card-img"
+                  class="project-card__img"
+                />
+                <div class="project-card__info">
+                  <h4 class="project-card__title">LAMELLA</h4>
+                  <div class="project-card__text">
+                    Amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore.
+                  </div>
+                </div>
+              </div>
+              <div class="project-card">
+                <img
+                  src="images/content/project-3.jpg"
+                  alt="card-img"
+                  class="project-card__img"
+                />
+                <div class="project-card__info">
+                  <h4 class="project-card__title">GRADE</h4>
+                  <div class="project-card__text">
+                    Consequuntur magni dolores eos qui ratione voluptatem sequi
+                    nesciunt.
+                  </div>
+                </div>
+              </div>
+              <div class="project-card">
+                <img
+                  src="images/content/project-1.jpg"
+                  alt="card-img"
+                  class="project-card__img"
+                />
+                <div class="project-card__info">
+                  <h4 class="project-card__title">ABRIS</h4>
+                  <div class="project-card__text">
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                    odit aut fugit, sed quia.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="partners">
+          <div class="container">
+            <h2 class="partners__title">ПАРТНЕРЫ</h2>
+            <p class="partners__descr">Наши партнёры лидеры рынка Украины</p>
+            <div class="partners__inner">
+                <img src="images/partner1.png" alt="partners" class="partners__img">
+                <img src="images/partner2.png" alt="partners" class="partners__img">
+                <img src="images/partner3.png" alt="partners" class="partners__img">
+                <img src="images/partner4.png" alt="partners" class="partners__img">
+                <img src="images/partner5.png" alt="partners" class="partners__img">
+                <img src="images/partner6.png" alt="partners" class="partners__img">
+                <img src="images/partner7.png" alt="partners" class="partners__img">
+                <img src="images/partner8.png" alt="partners" class="partners__img">
+                <img src="images/partner9.png" alt="partners" class="partners__img">
+                <img src="images/partner10.png" alt="partners" class="partners__img">
+                <img src="images/partner11.png" alt="partners" class="partners__img">
+                <img src="images/partner12.png" alt="partners" class="partners__img">
+            </div>
+          </div>
+        </section>
+
+        <section class="consulting">
+            <div class="container">
+                <div class="consulting__inner">
+                    <div class="consulting__info">
+                        <h2 class="consulting__title">КОНСУЛЬТАЦИЯ</h2>
+                        <p class="consulting__descr">Наши технические специалисты готовы провести консультацию о интуресующих вас вопросах. Касательно технических характеристик, покупки установки, сервисного обслуживания.</p>
+                        <img src="images/icons/consult-icon.png" alt="" class="consulting__img">
+                    </div>
+                    <form class="consulting__form">
+                        <h4 class="consulting__form-title">ЗАКАЗАТЬ ЗВОНОК</h4>
+                        <input name="name" type="text" class="consulting__input" placeholder="Имя">
+                        <input name="city" type="text" class="consulting__input" placeholder="Город">
+                        <input name="phone" type="tel" class="consulting__input" placeholder="Телефон">
+                        <button class="button button--white">ЗАКАЗАТЬ</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__top">
+            <div class="footer__info">
+              <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo" />
+              </a>
+              <span class="footer__text"
+                >KDT - станки и оборудование для мебельных и
+                деревообрабатывающих предприятий</span
+              >
+            </div>
+            <div class="footer__menu">
+              <nav class="footer__navbar">
+                <h4 class="footer__category">Каталог оборудования</h4>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Оборудование для раскроя</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Кромкооблицовочные станки</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Сверлильно-присадочные станки</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Обрабатывающие центры с ЧПУ</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Автоматические линии</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Автоматизация</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Запчасти</a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="footer__navbar ">
+                <h4 class="footer__category">Информация</h4>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">О нас</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Сервис</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="footer__navbar">
+                <h4 class="footer__category ">Обратная связь</h4>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">+38 (067) 445-60-35</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">info@kdtmac.com.ua</a>
+                  </li>
+                  <li class="footer__item footer__item--notlink">
+                    Украина 49000
+                  </li>
+                  <li class="footer__item footer__item--notlink">г. Днепр</li>
+                  <li class="footer__item footer__item--notlink">
+                    <address class="footer__link">
+                      ул. Костя Гордиенко 2
+                    </address>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__confidence">
+              © Guangzhou KDT Machinery Co. Stankomplect, Inc. 2022.
+            </div>
+            <div class="footer__social">
+              <span>Следить за нами:</span>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="pop-up">
+      <div class="pop-up__inner">
+        <div class="pop-up__cross">
+          <img src="images/icons/cross.svg" alt="">
+        </div>
+        <form class="consulting__form">
+          <h4 class="consulting__form-title">ЗАКАЗАТЬ ЗВОНОК</h4>
+          <input name="name" type="text" class="consulting__input" placeholder="Имя">
+          <input name="city" type="text" class="consulting__input" placeholder="Город">
+          <input name="phone" type="tel" class="consulting__input" placeholder="Телефон">
+          <button class="button button--white">ЗАКАЗАТЬ</button>
+      </form>
+      </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

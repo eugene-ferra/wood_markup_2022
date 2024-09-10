@@ -1,0 +1,69 @@
+.video-catalog{
+    padding: 100px 0 20px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+.video-item{
+    display: block;
+    max-width: 270px;
+    margin: 15px 0 70px;
+    &__contentbox{
+        cursor: pointer;
+        height: 145px;
+        display: flex;
+        margin-bottom: 20px;
+        //если будет видео с ютуба, вставленное через ссылку
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+        //если просто картинка-превью
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__about{
+        padding: 5px;
+    }
+    &__category{
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 20px;
+        color: $blue;
+        font-weight: 500;
+        padding-left: 15px;
+        position: relative;
+        margin-bottom: 15px;
+        &::before{
+            content: '';
+            width: 7px;
+            height: 7px;
+            border-radius: 100%;
+            background-color: $blue;
+            position: absolute;
+            top: 7px;
+            left: 0;
+        }
+    }
+    &__info{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        min-height: 100px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(169, 169, 169);
+        margin-bottom: 5px;
+    }
+    &__date{
+        font-size: 14px;
+        line-height: 20px;
+        color: rgb(62, 62, 62);
+        font-weight: 400;
+    }
+}

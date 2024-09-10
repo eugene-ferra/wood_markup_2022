@@ -1,0 +1,42 @@
+.about-article {
+  padding: 90px 0;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__main {
+    width: 430px;
+  }
+  &__text {
+    width: 690px;
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 30px;
+  }
+  &__title {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 160px;
+  }
+  &__btn{
+    padding: 12px 50px 12px 20px;
+    font-size: 15px;
+    position: relative;
+    &::after{
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-image: url('../images/icons/play.svg');
+        display: inline-block;
+        position: absolute;
+        top: 9px;
+        right: 20px;
+    }
+    &:hover{
+        border-radius: 25px;
+        background-color: transparent;
+        color: $dark_blue
+    }
+  }
+}

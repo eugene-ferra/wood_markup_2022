@@ -1,0 +1,33 @@
+.callback {
+  padding: 80px 0 100px;
+  &__title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 15px;
+  }
+  &__descr {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 150px;
+  }
+  &__social{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 180px;
+    margin: 0 10px;
+  }
+  &__img{
+    margin-bottom: 25px;
+    height: 60px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+}

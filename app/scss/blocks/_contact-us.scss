@@ -1,0 +1,42 @@
+.contact-us {
+  padding: 180px 0 100px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__info {
+    max-width: 50%;
+    padding-right: 50px;
+  }
+  &__map-inner {
+    width: 600px;
+    height: 400px;
+  }
+  .map{
+    width: 100%;
+    height: 100%;
+  }
+  &__title {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 15px;
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 146.19%;
+  }
+  &__link {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 146.19%;
+  }
+  &__address{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 146.19%;
+    margin-top: 50px;
+  }
+}

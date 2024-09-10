@@ -1,0 +1,16 @@
+.info-block {
+  padding: 115px 0 150px;
+  background-color: $blue;
+  color: #fff;
+  &__title {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 105.69%;
+    margin-bottom: 70px;
+  }
+  &__descr {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/jquery.formstyler.css" rel="stylesheet" />
+    <link href="css/jquery.formstyler.theme.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <select class="header__select" name="select-language">
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+            </select>
+            <div class="header__social">
+              <a href="tel:380674456035" class="header__phone"
+                >+38 (067) 445-60-35</a
+              >
+              <a href="mailto:info@kdtmac.com.ua" class="header__mail"
+                >info@kdtmac.com.ua</a
+              >
+            </div>
+            <form action="#" class="header__form">
+              <input type="text" class="header__input" placeholder="ПОИСК" />
+            </form>
+            <button class="button header__btn" data-popup="pop-up">ЗАКАЗАТЬ ЗВОНОК</button>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="container">
+            <a href="#" class="logo">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+            <nav class="navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Каталог оборудования</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">О компании</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Сервис</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Проэкты</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Медиа</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div class="header-mobile">
+        <div class="container">
+          <div class="header-mobile__inner">
+            <select class="header__select" name="select-language">
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+              <option value="ukr" class="header__option">ЯЗЫК</option>
+            </select>
+
+            <a href="#" class="logo">
+              <img src="images/logo.png" alt="logo" />
+            </a>
+
+            <div class="burger">
+              <img src="images/icons/burger.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="burger-menu">
+        <button class="button button--dark header__btn" data-popup="pop-up">ЗАКАЗАТЬ ЗВОНОК</button>
+        <form action="#" class="header__form">
+          <input type="text" class="header__input" placeholder="ПОИСК" />
+        </form>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Каталог оборудования</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">О компании</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Сервис</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Проэкты</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Медиа</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__social">
+          <a href="tel:380674456035" class="header__phone"
+            >+38 (067) 445-60-35</a
+          >
+          <a href="mailto:info@kdtmac.com.ua" class="header__mail"
+            >info@kdtmac.com.ua</a
+          >
+        </div>
+      </div>
+
+      <main class="main">
+        <div class="banner slick-banner">
+          <img
+            src="images/content/banner-photo.jpg"
+            alt="banner"
+            class="banner__img"
+          />
+          <img
+            src="images/content/banner-photo.jpg"
+            alt="banner"
+            class="banner__img"
+          />
+          <img
+            src="images/content/banner-photo.jpg"
+            alt="banner"
+            class="banner__img"
+          />
+        </div>
+
+        <div class="breadcrumbs">
+          <div class="container">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">
+                  <img src="images/icons/prev-arrow.png" alt="prev" />
+                </a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">главная</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">сервис</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <article class="about-article">
+          <div class="container">
+            <div class="about-article__inner">
+              <div class="about-article__main">
+                <h3 class="about-article__title">НАШ СЕРВИС</h3>
+                <button class="button button--dark about-article__btn" data-film>
+                  КОРПОРАТИВНЫЙ ФИЛЬМ
+                </button>
+              </div>
+              <div class="about-article__text">
+                Сервис и ремонт оборудования, поставляемого компанией
+                Станкомплект, являются приоритетными работами для нас. Данный
+                пункт является гарантией взаимовыгодного, и надежного
+                сотрудничества с нашими клиентами. Сервисная служба Станкомплект
+                осуществляет работы по пуско-наладке, гарантийному,
+                послегарантийному обслуживанию, ремонту и диагностике
+                деревообрабатывающего и мебельного оборудования компании KDT
+                machinery. Специалисты нашей компании имеют многолетний опыт
+                работы, диагностики и эксплуатации деревообрабатывающего
+                оборудования, регулярно проходят обучение и переподготовку на
+                заводе компании KDT, благодаря чему знают все тонкости работы
+                обслуживаемого оборудования. Сервисная служба компании дает
+                исчерпывающие консультации и помогает в подборе нужного
+                оборудования под различные задачи и требования.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="banner banner--mini slick-banner">
+          <img
+            src="images/content/servis-banner-mini.jpg"
+            alt="banner"
+            class="banner__img"
+          />
+          <img
+            src="images/content/servis-banner-mini.jpg"
+            alt="banner"
+            class="banner__img"
+          />
+          <img
+            src="images/content/servis-banner-mini.jpg"
+            alt="banner"
+            class="banner__img"
+          />
+        </div>
+
+        <section class="benefits">
+          <div class="container">
+            <h2 class="benefits__title">Послепродажное обслуживание</h2>
+            <div class="benefits__inner">
+              <div class="benefits__item">
+                <img
+                  src="images/icons/servis-benefit-1.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <h4 class="benefits__subtitle">Интернет-сервис</h4>
+                <p class="benefits__descr">
+                  Получайте прибыль,доминируйте на рынке и получить поддержку с
+                  качеством
+                </p>
+              </div>
+              <div class="benefits__item">
+                <img
+                  src="images/icons/servis-benefit-2.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <h4 class="benefits__subtitle">Онлайн база знаний</h4>
+                <p class="benefits__descr">
+                  Выступайте за инновации, дерзайте и хорош в созидании
+                </p>
+              </div>
+              <div class="benefits__item">
+                <img
+                  src="images/icons/servis-benefit-3.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <h4 class="benefits__subtitle">Онлайн обслуживание</h4>
+                <p class="benefits__descr">
+                  Стабильная работа, уважаемый и сервисное общество
+                </p>
+              </div>
+              <div class="benefits__item">
+                <img
+                  src="images/icons/servis-benefit-4.png"
+                  alt=""
+                  class="benefits__img"
+                />
+                <h4 class="benefits__subtitle">Сервис от двери к двери</h4>
+                <p class="benefits__descr">
+                  Ориентированная на людей, система как ключ ссылка и
+                  взаимовыгодное сотрудничество
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="items-gallery">
+          <div class="container">
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item items-gallery__item--inverse items-gallery__item--servis">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">
+                    ТЕХНИЧЕСКАЯ ОНЛАЙН ПОДДЕРЖКА
+                  </h2>
+                  <p class="items-gallery__info">
+                    Специалисты компании Станкомплект проконсультируют по
+                    вопросам, связанным с эксплуатацией, настройкой и
+                    обслуживанием оборудования. Как в гарантийный, так и в
+                    послегарантийный периоды.
+                  </p>
+                </div>
+                <img
+                  src="images/content/servis-item.jpg"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item items-gallery__item--servis">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">СКЛАД КОМПЛЕТКУЮЩИХ</h2>
+                  <p class="items-gallery__info">
+                    Наличие запчастей и расходников на нашем складе позволяет
+                    оперативно производить обслуживание станков для обеспечения
+                    бесперебойной работы оборудования на производствах наших
+                    клиентов.
+                  </p>
+                </div>
+                <img
+                  src="images/content/servis-item-2.jpg"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item items-gallery__item--inverse items-gallery__item--servis">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">СКЛАД ОБОРУДОВАНИЯ</h2>
+                  <p class="items-gallery__info">
+                    Компания Станкомплект имеет большой склад оборудования,
+                    который на данный момент включает более 90 единиц
+                    промышленных станков
+                  </p>
+                </div>
+                <img
+                  src="images/content/servis-item-3.jpg"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item items-gallery__item--servis">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">СЕРВИСНЫЕ КОМАНДЫ</h2>
+                  <p class="items-gallery__info">
+                    Компания Станкомплект имеет большой склад оборудования,
+                    который на данный момент включает более 90 единиц
+                    промышленных станков.
+                  </p>
+                </div>
+                  <img
+                    src="images/content/servis-item-4.jpg"
+                    alt="img"
+                    class="items-gallery__img"
+                  />
+              </div>
+            </div>
+            <div class="items-gallery__inner">
+              <div class="items-gallery__item items-gallery__item--inverse items-gallery__item--servis">
+                <div class="items-gallery__text">
+                  <h2 class="items-gallery__title">ПРОЭКТИРОВАНИЕ</h2>
+                  <p class="items-gallery__info">
+                    Оказываем услуги комплексной автоматизации производства с
+                    подбором необходимого оборудования! Мы занимаемся как
+                    разработкой проектов с нуля, так и автоматизацией уже
+                    действующих производств
+                  </p>
+                </div>
+                <img
+                  src="images/content/servis-item-5.jpg"
+                  alt="img"
+                  class="items-gallery__img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hot-line">
+          <div class="container">  
+            <span>ГОРЯЧАЯ ЛИНИЯ</span>
+            <a href="tel:+380674456035" class="hot-line__phone">+38 (067) 445-60-35</a>
+          </div>
+        </div>
+
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__top">
+            <div class="footer__info">
+              <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo" />
+              </a>
+              <span class="footer__text"
+                >KDT - станки и оборудование для мебельных и
+                деревообрабатывающих предприятий</span
+              >
+            </div>
+            <div class="footer__menu">
+              <nav class="footer__navbar">
+                <h4 class="footer__category">Каталог оборудования</h4>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Оборудование для раскроя</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Кромкооблицовочные станки</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Сверлильно-присадочные станки</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link"
+                      >Обрабатывающие центры с ЧПУ</a
+                    >
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Автоматические линии</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Автоматизация</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Запчасти</a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="footer__navbar">
+                <h4 class="footer__category">Информация</h4>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">О нас</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Сервис</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+              <nav class="footer__navbar">
+                <h4 class="footer__category">Обратная связь</h4>
+                <ul class="footer__list">
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">+38 (067) 445-60-35</a>
+                  </li>
+                  <li class="footer__item">
+                    <a href="#" class="footer__link">info@kdtmac.com.ua</a>
+                  </li>
+                  <li class="footer__item footer__item--notlink">
+                    Украина 49000
+                  </li>
+                  <li class="footer__item footer__item--notlink">г. Днепр</li>
+                  <li class="footer__item footer__item--notlink">
+                    <address class="footer__link">
+                      ул. Костя Гордиенко 2
+                    </address>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__confidence">
+              © Guangzhou KDT Machinery Co. Stankomplect, Inc. 2022.
+            </div>
+            <div class="footer__social">
+              <span>Следить за нами:</span>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+              <a href="#" class="footer__social-link">
+                <img
+                  src="images/icons/social-icon.svg"
+                  alt="icon"
+                  class="footer__img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <div class="overlay"></div>
+    <div class="pop-up">
+      <div class="pop-up__inner">
+        <div class="pop-up__cross">
+          <img src="images/icons/cross.svg" alt="">
+        </div>
+        <form class="consulting__form">
+          <h4 class="consulting__form-title">ЗАКАЗАТЬ ЗВОНОК</h4>
+          <input name="name" type="text" class="consulting__input" placeholder="Имя">
+          <input name="city" type="text" class="consulting__input" placeholder="Город">
+          <input name="phone" type="tel" class="consulting__input" placeholder="Телефон">
+          <button class="button button--white">ЗАКАЗАТЬ</button>
+      </form>
+      </div>
+    </div>
+
+
+    <div class="video">
+      <div class="video__inner">
+        <iframe class="video__content" width="956" height="538" src="https://www.youtube.com/embed/kbw6Uo5MDFE?enablejsapi=1" title="Автоматическая линия KDT NESTING LINE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- <video src="video/test-video.mp4"  controls class="video__content"></video> -->
+      </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

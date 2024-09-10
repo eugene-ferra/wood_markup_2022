@@ -1,0 +1,83 @@
+.button {
+  display: inline-block;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 9px 21px;
+  text-transform: uppercase;
+  transition: 0.3s all;
+  cursor: pointer;
+  &:hover {
+    background-color: #fff;
+    color: $dark_blue;
+  }
+  &--dark {
+    border: 2px solid $dark_blue;
+    color: $dark_blue;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 12px 49px;
+    position: relative;
+    &:hover {
+      background-color: $dark_blue;
+      color: #fff;
+    }
+  }
+  &--white {
+    background-color: #fff;
+    color: $blue;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 17px 40px;
+    &:hover {
+      border-radius: 20px;
+      box-shadow: 0 0 8px #fff;
+    }
+  }
+  &--red {
+    background-color: #ff7e7e;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 14px 50px;
+    border: none;
+    &:hover {
+      background-color: #ed4949;
+      color: #fff;
+    }
+  }
+  &--more {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 148%;
+    color: #000;
+    position: relative;
+    &::before{
+      content: '';
+      width: 13px;
+      height: 24px;
+      position: absolute;
+      top: 3px;
+      left: 0;
+      background-image: url('../images/icons/dropdown-arrow.png');
+    }
+  }
+  &--download{
+    padding-left: 40px;
+    padding-right: 60px;
+    &::after{
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 3px;
+      right: 20px;
+      background-image: url('../images/icons/download.png');
+    }
+  }
+}

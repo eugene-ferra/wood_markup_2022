@@ -1,0 +1,55 @@
+.projects {
+  padding: 150px 0 50px;
+  &__title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    margin-bottom: 15px;
+    &--product{
+      margin-bottom: 120px;
+    }
+  }
+  &__descr {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    max-width: 50%;
+    margin-bottom: 120px;
+  }
+  .slick-arrow{
+    position: absolute;
+    top: -85px;
+    left:0;
+  }
+  .slick-next{
+    left: 90px;
+  }
+}
+
+.project-card {
+  max-width: 380px;
+  padding: 0 5px;
+  &__img {
+    height: 270px;
+    width: 100%;
+    object-fit: cover;
+  }
+  &__info {
+    border: 2px solid $dark_blue;
+    border-top: none;
+    padding: 70px 50px 30px;
+    min-height: 285px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 25px;
+  }
+  &__text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

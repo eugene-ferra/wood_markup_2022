@@ -1,0 +1,18 @@
+.about{
+    padding: 180px 0;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__img{
+        max-width: 288px;
+        max-height: 100%;
+    }
+    &__text{
+        max-width: 785px;
+        font-size: 24px;
+        line-height: 153%;
+        font-weight: 300;
+    }
+}
